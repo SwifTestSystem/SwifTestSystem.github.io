@@ -11,17 +11,6 @@ table th:nth-of-type(1) {
     max-width:150px;
     min-width:150px;
 }
-table th:nth-of-type(2) {
-    width: 200px;
-    max-width:200px;
-    min-width:200px;
-}
-table th:nth-of-type(3) {
-    width: 200px;
-    max-width:200px;
-    min-width:200px;
-}
-
 </style>
 
 |STS|Implementation|
@@ -33,7 +22,7 @@ table th:nth-of-type(3) {
 
 |STS|Website|Our Implementation|
 |:----:|------|------|
-|SpeedOf|[https://speedof.me](https://speedof.me/)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/Speedof.me/](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/Speedof.me/)|
+|SpeedOf|[https://speedof.me](https://speedof.me/)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/<br>tree/master/Speedof.me/](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/Speedof.me/)|
 |BWP|[https://www.bandwidthplace.com](https://www.bandwidthplace.com/)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/BandwidthPlace](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/BandwidthPlace/)|
 |SFtest|[https://sourceforge.net/speedtest](https://sourceforge.net/speedtest/)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/SourceForge/](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/SourceForge/)|
 |ATTtest|[http://speedtest.att.com/speedtest](http://speedtest.att.com/speedtest/)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/ATTSpeedTest/](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/ATTSpeedTest/)|
