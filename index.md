@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+# SwifTest: Considerate Internet Speed Test for End Users
+### Introduction
+Web-based speed test systems (STSes) such as SpeedTest.net are extremely popular and important. In this paper, we conduct a comprehensive measurement study of commercial STSes, finding that their reported speed is oftentimes inaccurate, that their test duration is typically 10+ seconds, and that their data usage can reach up to 2 GB over 5G. We also reverse-engineer their speed test logic, whose many design decisions are found to be ad-hoc and non-adaptive. Motivated by the above findings, we develop SwifTest, an innovative STS solution offering accurate, robust, bandwidthefficient, and ready-to-deploy speed test. This demanding job is fulfilled by our principled designs including elastic bandwidth probing, intelligent bandwidth sampling, strategic test server selection, and adaptive multi-homing. Comprehensive real-world tests show that SwifTest significantly outperforms existing STSes in accuracy, duration, and data usage under the same server pool size. In addition, using only 30 test servers, SwifTest achieves similar accuracy compared to SpeedTest.net that employs ∼9,800 servers, while incurring up to 5.6× shorter duration and up to 10.7× less data usage.
+<br/>
 
-You can use the [editor on GitHub](https://github.com/SwifTestSystem/SwifTestSystem.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### SwifTest We Implement
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<style>
+table th:nth-of-type(1) {
+    width: 150px;
+    max-width:150px;
+    min-width:150px;
+}
+</style>
 
-### Markdown
+|STS|Implementation|
+|:----:|------|
+|SwifTest|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/SwifTest](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/SwifTest)|
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Representitive Commercial STSes
 
-# Header 1
-## Header 2
-### Header 3
+|STS|Website|Our Implementation|
+|:----:|------|------|
+|SpeedOf|[https://speedof.me](https://speedof.me/)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/Speedof.me/](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/Speedof.me/)|
+|BWP|[https://www.bandwidthplace.com](https://www.bandwidthplace.com/)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/BandwidthPlace](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/BandwidthPlace/)|
+|SFtest|[https://sourceforge.net/speedtest](https://sourceforge.net/speedtest/)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/SourceForge/](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/SourceForge/)|
+|ATTtest|[http://speedtest.att.com/speedtest](http://speedtest.att.com/speedtest/)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/ATTSpeedTest/](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/ATTSpeedTest/)|
+|Xfinity|[http://speedtest.xfinity.com/](http://speedtest.xfinity.com)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/XFinity/](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/XFinity/)|
+|FAST|[https://fast.com](https://fast.com)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/Fast.com](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/Fast.com)|
+|SpeedTest|[https://speedtest.net](https://speedtest.net)|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/SpeedTest.net](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/SpeedTest.net)|
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Non-flooding STSes
 
-**Bold** and _Italic_ and `Code` text
+<style>
+table th:nth-of-type(1) {
+    width: 150px;
+    max-width:150px;
+    min-width:150px;
+}
+</style>
 
-[Link](url) and ![Image](src)
-```
+|STS|Implementation|
+|:----:|------|
+|TOPP|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/blob/master/nonFlooding/TOPP.cpp](https://github.com/BERIST/BERIST.github.io/tree/master/nonFlooding/)|
+|IGI|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/blob/master/nonFlooding/IGI.cpp](https://github.com/BERIST/BERIST.github.io/tree/master/nonFlooding/)|
+|PathChirp|[https://github.com/SwifTestSystem/SwifTestSystem.github.io/blob/master/nonFlooding/PathChirp.cpp](https://github.com/BERIST/BERIST.github.io/tree/master/nonFlooding/)|
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SwifTestSystem/SwifTestSystem.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
