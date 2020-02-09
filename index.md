@@ -7,9 +7,9 @@ Web-based speed test systems (STSes) such as SpeedTest.net are extremely popular
 
 <style>
 table th:nth-of-type(1) {
-    width: 150px;
-    max-width:150px;
-    min-width:150px;
+    width: 100px;
+    max-width:100px;
+    min-width:100px;
 }
 </style>
 
@@ -33,13 +33,7 @@ table th:nth-of-type(1) {
 
 ### Non-flooding STSes
 
-<style>
-table th:nth-of-type(1) {
-    width: 150px;
-    max-width:150px;
-    min-width:150px;
-}
-</style>
+
 
 |STS|Implementation|
 |:----:|------|
