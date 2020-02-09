@@ -11,6 +11,11 @@ table th:nth-of-type(1) {
     max-width:150px;
     min-width:150px;
 }
+table th:nth-of-type(3) {
+    width: 300px;
+    max-width:300px;
+    min-width:300px;
+}
 </style>
 
 |STS|Implementation|
