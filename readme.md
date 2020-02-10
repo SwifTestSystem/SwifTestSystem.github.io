@@ -1,8 +1,3 @@
-We have made the source code of our project publicly available, 
-which is organized as the following structure:
-
-<div id="网站md_14392" align=center x:publishsource="Excel">
-
 <table border=0 cellpadding=0 cellspacing=0 width=1030 style='border-collapse:
  collapse;table-layout:fixed;width:772pt'>
  <col width=248 style='mso-width-source:userset;mso-width-alt:7936;width:186pt'>
@@ -107,7 +102,7 @@ which is organized as the following structure:
   <td height=21 style='height:16.0pt'>speedtest.cpp</td>
  </tr>
  <tr height=21 style='height:16.0pt'>
-  <td rowspan=7 height=147 style='height:112.0pt'>Non-flooding Methods</td>
+  <td rowspan=10 height=210 style='height:160.0pt'>Non-flooding Methods</td>
   <td rowspan=3>server code</td>
   <td>IGI.cpp</td>
  </tr>
@@ -122,7 +117,7 @@ which is organized as the following structure:
   TOPP.cpp</td>
  </tr>
  <tr height=21 style='height:16.0pt'>
-  <td rowspan=4 height=84 style='height:64.0pt'>client code</td>
+  <td rowspan=7 height=147 style='height:112.0pt'>client code</td>
   <td>
   <meta charset=utf-8>
   jquery-3.2.1.min.js</td>
@@ -138,9 +133,21 @@ which is organized as the following structure:
   target.js</td>
  </tr>
  <tr height=21 style='height:16.0pt'>
-  <td height=21 style='height:16.0pt'>index.html</td>
+  <td height=21 style='height:16.0pt'>
+  <meta charset=utf-8>
+  index_IGI.html</td>
  </tr>
- <![if supportMisalignedColumns]>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 style='height:16.0pt'>
+  <meta charset=utf-8>
+  index_PathChirp.html</td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 style='height:16.0pt'>
+  <meta charset=utf-8>
+  index_TOPP.html</td>
+ </tr>
+<![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
   <td width=248 style='width:186pt'></td>
   <td width=283 style='width:212pt'></td>
@@ -148,4 +155,3 @@ which is organized as the following structure:
  </tr>
  <![endif]>
 </table>
-
