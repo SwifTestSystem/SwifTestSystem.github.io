@@ -37,8 +37,8 @@ table th:nth-of-type(1) {
 
 |STS|Implementation|
 |:----:|------|
-|TOPP|[https://github.com/SwifTestSystem/<br>SwifTestSystem.github.io/blob/master/nonFlooding](https://github.com/BERIST/BERIST.github.io/tree/master/nonFlooding/)|
-|IGI|[https://github.com/SwifTestSystem/<br>SwifTestSystem.github.io/blob/master/nonFlooding](https://github.com/BERIST/BERIST.github.io/tree/master/nonFlooding/)|
-|PathChirp|[https://github.com/SwifTestSystem/<br>SwifTestSystem.github.io/blob/master/nonFlooding](https://github.com/BERIST/BERIST.github.io/tree/master/nonFlooding/)|
+|TOPP|[https://github.com/SwifTestSystem/<br>SwifTestSystem.github.io/blob/master/nonFlooding](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/nonFlooding)|
+|IGI|[https://github.com/SwifTestSystem/<br>SwifTestSystem.github.io/blob/master/nonFlooding](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/nonFlooding)|
+|PathChirp|[https://github.com/SwifTestSystem/<br>SwifTestSystem.github.io/blob/master/nonFlooding](https://github.com/SwifTestSystem/SwifTestSystem.github.io/tree/master/nonFlooding)|
 
 
